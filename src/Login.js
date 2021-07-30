@@ -79,6 +79,7 @@ function Login({ login }) {
                 placeholder="Enter Password"
                 minLength="8"
                 name="Password"
+                type="password"
                 required
                 onChange={handleChange}
               />
